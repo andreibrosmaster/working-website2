@@ -349,7 +349,7 @@ header
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 17px;
   text-transform: uppercase;
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
@@ -728,7 +728,7 @@ banner
 
 .main-banner .caption {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
 }
 
