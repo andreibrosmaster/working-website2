@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == 'POST') {
             $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
             // Insert user data into the database
-            $sql = "INSERT INTO `users` (username, first_name, last_name, email, password, agree) VALUES ('$username', '$f_name', '$l_name', '$email', '$hashed_password', $agree)";
+            $sql = "INSERT INTO `users` (username, first_name, last_name, email, password, agree) VALUES ('$username', '$f_name', '$l_name', '$email', '$hashed_password', '$agree')";
             $result = mysqli_query($conn, $sql);
             if ($result) {
                 echo "Registration Successful";
