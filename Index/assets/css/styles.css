@@ -1,0 +1,11 @@
+/* CSS for smooth transition */
+body {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+body.hidden {
+    opacity: 0;
+    transform: translateX(20px); /* You can adjust the value as needed */
+}
